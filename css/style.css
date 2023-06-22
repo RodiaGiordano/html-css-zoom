@@ -10,7 +10,7 @@
 
 .debug *{
     border: 1px dashed black;
-    min-height: 10px;
+    
 }
 
 .flex{
@@ -19,31 +19,145 @@
 
 .justify-end{
     justify-content: end;
-    
+    align-items:start;    
 }
+
+.position-relat{
+    position: relative;
+}
+
+
 
 
 
 /* HEADER */
 
 header{
-    height: 10vh;  
-    
+    display: block;
+    height:  10vh;  
+    align-items: center;
+    background-color: black;
+
 }
 
 
-.speaker{
-   vertical-align: middle;
+
+.heder-group{
+    vertical-align:top;
 }
 
+.header-group i{
+    padding: 5px;
+        
+}
 
-
-
-
+.header-group div{
+    background-color: blue;
+}
 
 
 /* MAIN */
 
+main{
+    
+    height: 80vh;
+    padding: 20px;
+    background-color: black;
+}
+
+.screen-big{
+    margin: auto;   
+    height: 80vh;
+    
+    
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 200px;
+    gap: .5rem .1rem
+    
+}
+
+img{
+    display: block;
+    width: 100%;
+    height: 100%;
+   
+}
+
+.card{
+    color: white;
+    width: 150px;
+
+}
+
+.microphone-guy{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    padding: 1px 3px;
+    background-color: rgba(100, 100, 100, .8);
+    
+}
+
+
+.name-guy{
+    vertical-align: baseline;
+}
+
 
 
 /* FOOTER */
+
+footer{
+    height: 10vh;
+    justify-content:space-between ;
+
+    background-color: rgba(0, 0, 0, .85);
+    
+}
+
+.icon-group{
+    
+    text-align: center;
+    align-items: center;
+    
+
+    gap:10px;
+}
+
+.in-group{
+    flex-direction: column;
+    padding: 5px 0;
+    align-content: end;
+   
+}
+
+
+.text-icon, i{
+    color: white;
+}
+
+
+.text-icon{
+    font-size: small;
+    padding-top: 2px;
+    
+}
+
+.fa-angle-up{
+    font-size: xx-small;  
+    
+}
+
+.end-meeting{
+    background-color: rgba(255, 255, 255, .3);
+    
+}
+
+#button-end{
+    color: red;
+    padding: 0 10px;
+    background: none ;
+}
+    
