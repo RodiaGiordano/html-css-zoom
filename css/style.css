@@ -8,15 +8,41 @@
 
 /* UTILITY */
 
+.debug *{
+    border: 1px dashed black;
+    min-height: 10px;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-end{
+    justify-content: end;
+    
+}
+
+
+
+/* HEADER */
+
+header{
+    height: 10vh;  
+    
+}
+
+
+.speaker{
+   vertical-align: middle;
+}
+
+
 
 
 
 
 
 /* MAIN */
-
-
-
 
 
 
